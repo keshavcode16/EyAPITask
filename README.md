@@ -1,5 +1,5 @@
 # Run service with docker 
-1. Navigate under root directory
+1. Clone the Repo and Navigate under root directory
 
 # Env file for local testing
 Create `.env` file in root directory and copy following statments
