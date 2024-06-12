@@ -20,6 +20,11 @@ cd CreateEventFastAPI/
 pip install -r requirements.txt
 uvicorn app.main:app --port=8081 --host 0.0.0.0
 ```
+# To Run test cases just run below command
+```
+pytest
+```
+
 
 # Run fastapi swagger on browser
  - http://0.0.0.0:8000/docs
