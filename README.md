@@ -17,7 +17,7 @@ VERSION=1.1.0
 python -m venv projectenv
 source projectenv/bin/activate  
 cd CreateEventFastAPI/
-pip install -r requirements.txt
+pip install -r dev_requirements.txt
 uvicorn app.main:app --port=8081 --host 0.0.0.0
 ```
 # To Run test cases just run below command
